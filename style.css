@@ -52,3 +52,20 @@ ul li label input[type="checkbox"] {
     opacity: 0;
     cursor: pointer;
 }
+
+ul li label .icon-box {
+    width: 60px;
+    height: 60px;
+    background: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+    transition: 0.5s;
+}
+
+ul li label .icon-box .fab {
+    font-size: 30px;
+    color: #222;
+    transition: 0.5s;
+}
