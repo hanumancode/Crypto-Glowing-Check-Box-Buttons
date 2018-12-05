@@ -42,3 +42,13 @@ ul li {
     text-align: center;
     margin: 15px;
 }
+
+ul li label {
+    position: relative;
+}
+
+ul li label input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
