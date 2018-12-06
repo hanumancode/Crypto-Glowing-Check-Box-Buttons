@@ -69,3 +69,9 @@ ul li label .icon-box .fab {
     color: #222;
     transition: 0.5s;
 }
+
+ul li label input[type="checkbox"]:checked ~ .icon-box {
+    background: #000;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(33, 156, 243, 0.5);
+}
