@@ -61,6 +61,7 @@ ul li label .icon-box {
     justify-content: center;
     align-items: center;
     border: 3px solid #000;
+    border-radius: 10px;
     transition: 0.5s;
 }
 
@@ -74,4 +75,8 @@ ul li label input[type="checkbox"]:checked ~ .icon-box {
     background: #000;
     border: 3px solid #fff;
     box-shadow: 0 0 10px rgba(33, 156, 243, 0.5);
+    box-shadow: 0 0 20px rgba(33, 156, 243, 0.5);
+    box-shadow: 0 0 30px rgba(33, 156, 243, 0.5);
+    inset 0 0 10px rgba(33, 156, 243, 1.0);
+    
 }
