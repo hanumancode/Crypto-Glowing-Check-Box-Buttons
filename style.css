@@ -21,7 +21,7 @@ ul {
     padding: 20px 0;
     box-sizing: border-box;
     overflow: hidden;
-    width: 240px;
+    width: 360px;
     background: linear-gradient(0deg, #000, #0C0C0C)
 }
 
@@ -54,8 +54,8 @@ ul li label input[type="checkbox"] {
 }
 
 ul li label .icon-box {
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     background: #101010;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@ ul li label .icon-box {
 }
 
 ul li label .icon-box .fab {
-    font-size: 30px;
+    font-size: 60px;
     color: #222;
     transition: 0.5s;
 }
@@ -74,10 +74,10 @@ ul li label .icon-box .fab {
 ul li label input[type="checkbox"]:checked ~ .icon-box {
     background: #000;
     border: 3px solid #fff;
-    box-shadow: 0 0 10px rgba(33, 156, 243, 0.5);
-    box-shadow: 0 0 20px rgba(33, 156, 243, 0.5);
-    box-shadow: 0 0 30px rgba(33, 156, 243, 0.5);
-    inset 0 0 10px rgba(33, 156, 243, 1.0);   
+    box-shadow: 0 0 10px rgba(33, 156, 243, 0.5),
+                0 0 20px rgba(33, 156, 243, 0.5),
+                0 0 30px rgba(33, 156, 243, 0.5),
+                inset 0 0 10px rgba(33, 156, 243, 1.0);   
 }
 
 ul li label input[type="checkbox"]:checked ~ .icon-box .fab {
